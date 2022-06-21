@@ -27,16 +27,16 @@ class RegiSys {
         boolean end = false;
         try {
             while (!end) {
-                System.out.println("◆メニュー番号を選択してください");
-                System.out.println("1:登録 2:照会 3:検索 4:削除 5:保存 6:読込 8:HELP 9:終了");
+                System.out.println("choose your menu");
+                System.out.println("1:regi 2:照会 3:検索 4:削除 5:保存 6:読込 8:HELP 9:終了");
                 str = br.readLine();
                 int n = Integer.parseInt(str);
-                System.out.println("メニュー番号＞ " + n);
+                System.out.println("menu ID" + n);
                 switch (n) {
                     case 1:
-                        System.out.println("会員情報を登録します。");
+                        System.out.println("regi");
                         ms.entry(br);
-                        System.out.println("会員登録が完了しました。");
+                        System.out.println("regi fin");
                         break;
                     case 2:
                         System.out.println("会員情報を照会します");
@@ -80,13 +80,13 @@ class RegiSys {
      */
     void entry(BufferedReader br) throws IOException {
         Member member = new Member();
-        System.out.println("■名前を入力して下さい  例）佐藤花子");
+        System.out.println("name name");
         member.setName(br.readLine());
 
-        System.out.println("■生年月日を入力して下さい 例）19960130");
+        System.out.println("birthdate");
         member.setBirth(br.readLine());
 
-        System.out.println("■電話番号を入力して下さい 例）0363925367");
+        System.out.println("tel tel");
         member.setTel(br.readLine());
 
         String entryId = String.format("JAVA%04d", ++id);
@@ -179,10 +179,10 @@ class RegiSys {
      */
     void allShow() {
         for (Map.Entry<String, Member> e : memberMap.entrySet()) {
-            System.out.println("[会員番号]" + e.getKey());
-            System.out.println("[名前]" + " : " + e.getValue().getName());
-            System.out.println("[背年月日]" + " : " + e.getValue().getBirth());
-            System.out.println("[電話番号]" + " : " + e.getValue().getTel());
+            System.out.println("[No.]" + e.getKey());
+            System.out.println("[Name]" + " : " + e.getValue().getName());
+            System.out.println("[Birthdate]" + " : " + e.getValue().getBirth());
+            System.out.println("[Tel]" + " : " + e.getValue().getTel());
             System.out.println();
         }
     }
