@@ -15,7 +15,6 @@ public class Scores {
             System.out.println("use number please...");
           return Scores.inputFunc(fname);
         }
-
     }
 
 
