@@ -1,16 +1,20 @@
 package Test2_managementSystem;
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class scores {
     public static void main(String[] args){
+        System.out.println("\r");
         System.out.println("Input Scores of a new Student.");
         Scanner nameInput = new Scanner(System.in);
         Scanner mathInput = new Scanner(System.in);
         Scanner chemistryInput = new Scanner(System.in);
         Scanner physicsInput = new Scanner(System.in);
+        int count = 1;
 
         while (true){
-        System.out.println("Type name of the student!");
+        System.out.println("Type name of no."+count+" student!");
+        System.out.println("If you wanna finish, press \"q\" button.");
         String name = nameInput.nextLine();
             if ("q".equals(name)) break;
 
@@ -45,16 +49,18 @@ public class scores {
                 System.out.println("Invalid data");
             }
 
-        }catch(Exception e){
+        }catch(InputMismatchException e){
             System.out.println("\r");
             System.out.println("\u001b[00;31m--Suuji de Tanomu--\u001b[00m");
+            break;
         }
 
+        count++;
         System.out.println("\r");
         System.out.println("Then, Input Scores of another Student.");
         }
 
         System.out.println("\r");
-        System.out.println("--OSHIMAI--");
+        System.out.println("--bye bye--");
     }
 }
