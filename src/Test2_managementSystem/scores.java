@@ -49,9 +49,14 @@ public class scores {
                 System.out.println("Invalid data");
             }
 
+            System.out.println("[math] "+math);
+            System.out.println("[chemistry] "+chemistry);
+            System.out.println("[physics] "+physics);
+
         }catch(InputMismatchException e){
             System.out.println("\r");
             System.out.println("\u001b[00;31m--Suuji de Tanomu--\u001b[00m");
+            /*System.out.println(e);*/
             break;
         }
 
