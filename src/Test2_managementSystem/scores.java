@@ -14,15 +14,15 @@ public class scores {
         String name = nameInput.nextLine();
             if ("q".equals(name)) break;
 
-        System.out.println("Input Math score!");
-        int math = mathInput.nextInt();
+        try {
+            System.out.println("Input Math score!");
+            int math = mathInput.nextInt();
 
-        System.out.println("Input Chemistry score!");
-        int chemistry = chemistryInput.nextInt();
+            System.out.println("Input Chemistry score!");
+            int chemistry = chemistryInput.nextInt();
 
-        System.out.println("Input Physics score!");
-        int physics = physicsInput.nextInt();
-
+            System.out.println("Input Physics score!");
+            int physics = physicsInput.nextInt();
 
         System.out.println("\r");
 
@@ -44,6 +44,11 @@ public class scores {
             default:
                 System.out.println("Invalid data");
             }
+
+        }catch(Exception e){
+            System.out.println("\r");
+            System.out.println("\u001b[00;31m--Suuji de Tanomu--\u001b[00m");
+        }
 
         System.out.println("\r");
         System.out.println("Then, Input Scores of another Student.");
