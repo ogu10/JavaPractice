@@ -4,6 +4,21 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Scores {
+
+
+    public static int inputFunc(String fname) {
+        try {
+            Scanner input = new Scanner(System.in);
+            System.out.println("Input " + fname + " score!");
+          return input.nextInt();
+        } catch (InputMismatchException e) {
+            System.out.println("use number please...");
+          return Scores.inputFunc(fname);
+        }
+
+    }
+
+
     public static void main(String[] args) {
         System.out.println("\r");
         System.out.println("Input Scores of a new Student.");
@@ -57,19 +72,6 @@ public class Scores {
 
         System.out.println("\r");
         System.out.println("--bye bye--");
-    }
-
-    public static int inputFunc(String fname) {
-        try {
-            Scanner input = new Scanner(System.in);
-            System.out.println("Input " + fname + " score!");
-            return input.nextInt();
-        } catch (InputMismatchException e) {
-            System.out.println("use number please...");
-            Scores.inputFunc(fname);
-        }
-
-        return 0;
     }
 
 }
