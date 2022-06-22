@@ -11,9 +11,7 @@ public class fortune {
 
 
         switch(num*num2){
-            case 1:
             case 3:
-            case 5:
                 System.out.println("win");
                 break;
             default:
