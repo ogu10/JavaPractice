@@ -49,9 +49,10 @@ public class scores {
                 System.out.println("Invalid data");
             }
 
-            System.out.println("[math] "+math);
-            System.out.println("[chemistry] "+chemistry);
-            System.out.println("[physics] "+physics);
+            System.out.println("[Math] "+math);
+            System.out.println("[Chemistry] "+chemistry);
+            System.out.println("[Physics] "+physics);
+            System.out.println("[Average] "+(math+chemistry+physics)/3+" (qualified by 60 points)");
 
         }catch(InputMismatchException e){
             System.out.println("\r");
