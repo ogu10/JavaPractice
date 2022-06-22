@@ -23,7 +23,6 @@ public class scores {
 
 
         System.out.println("\r");
-        System.out.println(name+" has... ");
 
         int i; i = 2;
         if (math + chemistry + physics < 180) i = -1;
@@ -32,13 +31,13 @@ public class scores {
 
         switch(i){
             case -1:
-                System.out.println("Failed");
+                System.out.println("\""+name+"\""+" has... \u001b[00;41mFailed\u001b[00m");
                 break;
             case 0:
-                System.out.println("Survived");
+                System.out.println("\""+name+"\""+" has... \u001b[00;46mSurvivrd\u001b[00m");
                 break;
             case 1:
-                System.out.println("Passed");
+                System.out.println("\""+name+"\""+" has... \u001b[00;42mPassed\u001b[00m");
                 break;
             default:
                 System.out.println("Invalid data");
