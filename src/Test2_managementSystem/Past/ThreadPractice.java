@@ -1,4 +1,4 @@
-public class ThreadPractivce extends Thread {
+public class ThreadPractice extends Thread {
 
 
     @Override
@@ -18,12 +18,12 @@ public class ThreadPractivce extends Thread {
 
 
     public static void main(String[] args) throws InterruptedException {
-        ThreadPractivce practivce = new ThreadPractivce();
+        ThreadPractice practivce = new ThreadPractice();
         practivce.start();
 
 
 
-        ThreadPractivce practivce1 = new ThreadPractivce();
+        ThreadPractice practivce1 = new ThreadPractice();
         practivce1.start();
 
 
