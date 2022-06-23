@@ -4,13 +4,14 @@ import java.util.Scanner;
 public class fortune {
     public static void main(String[] args){
         System.out.println("Choose number from 1 to 5!");
-        Scanner sc = new Scanner(System.in);
-        int num = sc.nextInt();
+        Scanner sc1 = new Scanner(System.in);
+        Scanner sc2 = new Scanner(System.in);
+        int num = sc1.nextInt();
+        int num2 = sc2.nextInt();
 
-        switch(num){
-            case 1:
+
+        switch(num*num2){
             case 3:
-            case 5:
                 System.out.println("win");
                 break;
             default:
