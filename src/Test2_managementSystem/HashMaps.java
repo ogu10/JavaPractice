@@ -67,14 +67,14 @@ public class HashMaps {
 
             passedStudents.put(name, average);
 
-
+            average = (math + chemistry + physics) / 3;
             System.out.println("[Math] " + math);
             System.out.println("[Chemistry] " + chemistry);
             System.out.println("[Physics] " + physics);
-            System.out.println("[Average] " + (math + chemistry + physics) / 3 + " (qualified by 60 points)");
+            System.out.println("[Average] " + average + " (qualified by 60 points)");
             System.out.println("\u001b[00;36mStudents Scores are... ");
             for (String t : passedStudents.keySet()) {
-                System.out.println(t + " (ave: " + passedStudents.get(t) + ")");
+                System.out.println(t + " (average: " + passedStudents.get(t) + ")");
             }
             System.out.println("\u001b[00m");
 
