@@ -4,7 +4,11 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Scores {
-
+    static int count = 1;
+    static int math;
+    static int chemistry;
+    static int physics;
+    int i;
 
     public static int inputFunc(String fname) {
         try {
@@ -17,33 +21,28 @@ public class Scores {
         }
     }
 
-
-    public static void main(String[] args) {
+    public void sub() {
         System.out.println("\r");
         System.out.println("Input Scores of a new Student.");
-        Scanner nameInput = new Scanner(System.in);
-        int count = 1;
-        int math;
-        int chemistry;
-        int physics;
+    }
 
+    public void result() {
+        math = Scores.inputFunc("math");
+        chemistry = Scores.inputFunc("chemistry");
+        physics = Scores.inputFunc("physics");
+    }
+
+    public void loop(){
+        Scanner nameInput = new Scanner(System.in);
         while (true) {
             System.out.println("Type name of no." + count + " student!");
             System.out.println("If you wanna finish, press \"q\" button.");
             String name = nameInput.nextLine();
             if ("q".equals(name)) break;
-
-            math = Scores.inputFunc("math");
-            chemistry = Scores.inputFunc("chemistry");
-            physics = Scores.inputFunc("physics");
-
             System.out.println("\r");
 
-            int i;
-            i = 2;
-            if (math + chemistry + physics < 180) i = -1;
-            if (math + chemistry + physics == 180) i = 0;
-            if (math + chemistry + physics > 180) i = 1;
+            Scores ifl = new Scores();
+            ifl.IfLoop();
 
             switch (i) {
                 case -1:
@@ -71,6 +70,15 @@ public class Scores {
 
         System.out.println("\r");
         System.out.println("--bye bye--");
+
+
+    }
+
+    public void IfLoop() {
+        i = 2;
+        if (math + chemistry + physics < 180) i = -1;
+        if (math + chemistry + physics == 180) i = 0;
+        if (math + chemistry + physics > 180) i = 1;
     }
 
 }
