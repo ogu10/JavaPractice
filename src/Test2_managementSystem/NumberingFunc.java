@@ -5,14 +5,15 @@ import java.util.Scanner;
 
 public class NumberingFunc {
 
-    public static int input(int num) {
+    public static void input(int num) {
+        Numbering n = new Numbering();
         try {
             Scanner input = new Scanner(System.in);
             System.out.println("Input " + num + " number!");
-            return input.nextInt();
+            Numbering.random[num-1] =  input.nextInt();
         } catch (InputMismatchException e) {
             System.out.println("use number please...");
-            return NumberingFunc.input(num);
+            NumberingFunc.input(num);
         }
 
     }

@@ -3,11 +3,6 @@ package Test2_managementSystem;
 import java.util.Scanner;
 
 public class Numbering {
-    static int number1;
-    static int number2;
-    static int number3;
-    static int number4;
-    static int number5;
     int smallest = 9999;
     int smallest1;
     static int[] random = new int[5];
@@ -20,7 +15,7 @@ public class Numbering {
         //read 5 numbers of users input and insert it into variables "number1" ~ "number5"
         //add these numbers into an array
         for(int s = 0; s < random.length; s++){
-            random[s] = NumberingFunc.input(s+1);
+            NumberingFunc.input(s+1);
         }
 
         //if loop to check smallest number of array
@@ -37,6 +32,7 @@ public class Numbering {
         //add these into an array
         //print it out
     }
+
 
     public void echo(int smallest,int smallest1){
         int smallestOrder = 0;
