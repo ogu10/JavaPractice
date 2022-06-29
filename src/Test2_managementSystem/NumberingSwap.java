@@ -6,7 +6,6 @@ import java.util.Collections;
 
 public class NumberingSwap {
     static int[] random = new int[5];
-    static int[] result = new int[5];
 
 
     public static void main(String[] args) {
@@ -39,7 +38,7 @@ public class NumberingSwap {
         Swap swap = new Swap();
         for (int i = 0; i <= random.length - 1; i++) {
             for (int j = 0; j <= random.length - 1; j++) {
-                if (random[i] < random[j]) {
+                if (random[i] > random[j]) {
                     swap.swap(i,j);
                 }
             }
