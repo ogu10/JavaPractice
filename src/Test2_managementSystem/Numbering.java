@@ -1,3 +1,4 @@
+/*
 package Test2_managementSystem;
 
 import java.util.Scanner;
@@ -14,7 +15,7 @@ public class Numbering {
         System.out.println("\r");
         //read 5 numbers of users input and insert it into variables "number1" ~ "number5"
         //add these numbers into an array
-        for(int s = 0; s < random.length; s++){
+        for (int s = 0; s < random.length; s++){
             NumberingFunc.input(s+1);
         }
 
@@ -43,7 +44,9 @@ public class Numbering {
             }
         }
         smallest1 = smallest;
-        System.out.println(smallest + " is Smallest");
-        System.out.println(smallestOrder + 1 + " BAN-ME");
+
+        System.out.println(smallestOrder + 1 + " BAN-ME-no");
+        System.out.println(smallest + " is Smallest.");
     }
 }
+*/

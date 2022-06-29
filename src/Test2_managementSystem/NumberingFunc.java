@@ -6,11 +6,11 @@ import java.util.Scanner;
 public class NumberingFunc {
 
     public static void input(int num) {
-        Numbering n = new Numbering();
+        NumberingNest n = new NumberingNest();
         try {
             Scanner input = new Scanner(System.in);
             System.out.println("Input " + num + " number!");
-            Numbering.random[num-1] =  input.nextInt();
+            NumberingNest.random[num-1] =  input.nextInt();
         } catch (InputMismatchException e) {
             System.out.println("use number please...");
             NumberingFunc.input(num);
