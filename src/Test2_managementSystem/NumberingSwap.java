@@ -1,6 +1,8 @@
 package Test2_managementSystem;
 
 import java.util.*;
+import java.util.Arrays;
+import java.util.Collections;
 
 public class NumberingSwap {
     static int[] random = new int[5];
@@ -33,11 +35,12 @@ public class NumberingSwap {
 
 
 
-    public void sort() {
+    public static void sort() {
+        Swap swap = new Swap();
         for (int i = 0; i <= random.length - 1; i++) {
             for (int j = 0; j <= random.length - 1; j++) {
-                if (random[i] > random[j]) {
-                    Collections.swap(Arrays.asList(random),i,j);
+                if (random[i] < random[j]) {
+                    swap.swap(i,j);
                 }
             }
         }
@@ -46,10 +49,10 @@ public class NumberingSwap {
     public void result(){
 
         System.out.print("The result is... ");
-        for (int i = 0; i <= result.length-2; i++) {
-            System.out.print(result[i] + ", ");
+        for (int i = 0; i <= random.length-2; i++) {
+            System.out.print(random[i] + ", ");
         }
-        System.out.print(result[result.length-1] + "!");
+        System.out.print(random[random.length-1] + "!");
     }
 
     public void initial(){
