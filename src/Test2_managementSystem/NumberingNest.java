@@ -10,22 +10,21 @@ public class NumberingNest {
     public static void main(String[] args) {
         Scanner numberInput = new Scanner(System.in);
         NumberingNest echoNum = new NumberingNest();
-        System.out.println("We will change the order of your 5 numbers.");
-        System.out.println("\r");
-        //read 5 numbers of users input and insert it into variables "number1" ~ "number5"
+
+        //initial message
+        echoNum.initial();
+
         //add these numbers into an array
         for (int s = 0; s < random.length; s++){
             NumberingFunc.input(s+1);
         }
 
         //if loop to check smallest number of array
-        //check one by one and if new one is smaller, override "smallestNumber", and after checking all, insert it into "smallest1"
         echoNum.echo();
 
         //print it out
         echoNum.result();
-        System.out.println("\r");
-        System.out.println("\r");
+        System.out.println("\n");
 
         //search func.
         Searching search = new Searching();
@@ -54,4 +53,18 @@ public class NumberingNest {
             System.out.print(result[result.length-1] + "!");
     }
 
+    public void initial(){
+        System.out.println("\r");
+        System.out.println("We will change the order of your 5 numbers.");
+    }
+
+/*    public void firstDecision(){
+
+        Scanner input = new Scanner(System.in);
+        System.out.println("Decide length.");
+        int length;
+        length =  input.nextInt();
+        int random[] = new int[length];
+        int result[] = new int[length];
+    }*/
 }
