@@ -1,15 +1,26 @@
 package Test2_managementSystem;
 
+import java.util.Scanner;
+
 public class Searching {
-    public static void main(String[] args){
+    public void search() {
 
-        //read 5 numbers of users input and insert it into variables "number1" ~ "number5"
+        int searchNum;
+        int order = 9999;
+        Scanner input = new Scanner(System.in);
+        System.out.println("Input Searching number:)");
+        searchNum =  input.nextInt();
+        for (int i = 0; i <= NumberingNest.random.length-1; i++){
+            if (searchNum == NumberingNest.random[i]){
+                order = i+1;
+            }
+        }
 
-        //add these numbers into an array
-
-        //if loop to check smallest number of array
-            //check one by one and if new one is smaller, override "smallestOrder", and after checking all, print the order
-
-
+        System.out.println("\r");
+        if(order != 9999){
+            System.out.println( searchNum + " is " + order + " BAN-ME-DESU.");
+        }else{
+            System.out.println("NAI-YO-IDIOT.");
+        }
     }
 }

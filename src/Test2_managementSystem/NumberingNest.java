@@ -24,6 +24,12 @@ public class NumberingNest {
 
         //print it out
         echoNum.result();
+        System.out.println("\r");
+        System.out.println("\r");
+
+        //search func.
+        Searching search = new Searching();
+        search.search();
     }
 
 
@@ -47,4 +53,5 @@ public class NumberingNest {
         }
             System.out.print(result[result.length-1] + "!");
     }
+
 }

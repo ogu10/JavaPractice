@@ -11,7 +11,7 @@ public class NumberingFunc {
             Scanner input = new Scanner(System.in);
             System.out.println("Input " + num + " number!");
             NumberingNest.random[num-1] =  input.nextInt();
-        } catch (InputMismatchException e) {
+            } catch (InputMismatchException e) {
             System.out.println("use number please...");
             NumberingFunc.input(num);
         }
