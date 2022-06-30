@@ -21,12 +21,12 @@ public class MyWindows extends JFrame implements ActionListener {
 
         label = new JLabel(count + "Click SHITE-MIRO",JLabel.CENTER);
         label2 = new JLabel(reduction + "Click SHITE-MIRO",JLabel.CENTER);
-        button = new JButton("Click SHIRO-YO");
-        buttonReduce = new JButton("Reduce DA-YO?");
-        buttonDelete = new JButton("Click SHICHA-DAME");
+        button = new JButton("+ DA-YO");
+        buttonReduce = new JButton("- DA-YO?");
+        buttonDelete = new JButton("RESET!");
         setLayout((new BorderLayout()));
-        add(label, BorderLayout.SOUTH);
-        add(label2, BorderLayout.NORTH);
+        add(label, BorderLayout.NORTH);
+        add(label2, BorderLayout.SOUTH);
         add(button, BorderLayout.EAST);
         add(buttonReduce, BorderLayout.WEST);
         add(buttonDelete, BorderLayout.CENTER);
