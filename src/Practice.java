@@ -1,4 +1,4 @@
-public class Practice2 {
+public class Practice {
 
 
     public void test() {
