@@ -55,11 +55,11 @@ public class TextIntro extends JFrame implements ActionListener{
 
 
      setLayout(new GridLayout(5,4,0,0));
-     add(label3);
      add(label);
+     add(label3);
      add(label4);
      add(label2);
-     add(button1);
+     add(new ButtonN("1"));
      add(button2);
      add(button3);
      add(button4);
@@ -129,42 +129,48 @@ public class TextIntro extends JFrame implements ActionListener{
      }
      if(e.getSource() == buttonPlus) {
          label.setText(Double.toString(Double.parseDouble(label2.getText())));
-         func = "plus";
+         func = "+";
          label2.setText(Double.toString(0));
+         label3.setText(func);
      }
      if(e.getSource() == buttonMinus) {
          label.setText(Double.toString(Double.parseDouble(label2.getText())));
-         func = "minus";
+         func = "－";
          label2.setText(Double.toString(0));
+         label3.setText(func);
      }
      if(e.getSource() == buttonMultiple) {
          label.setText(Double.toString(Double.parseDouble(label2.getText())));
-         func = "multiply";
+         func = "×";
          label2.setText(Double.toString(0));
+         label3.setText(func);
      }
      if(e.getSource() == buttonDivide) {
          label.setText(Double.toString(Double.parseDouble(label2.getText())));
-         func = "divide";
+         func = "÷";
          label2.setText(Double.toString(0));
+         label3.setText(func);
      }
      if(e.getSource() == buttonEqual) {
-         if (func == "plus") {
+         if (func == "+") {
              label2.setText(Double.toString(Double.parseDouble(label.getText()) + Double.parseDouble(label2.getText())));
-         }else if(func == "minus") {
+         }else if(func == "－") {
              label2.setText(Double.toString(Double.parseDouble(label.getText()) - Double.parseDouble(label2.getText())));
-         }else if(func == "multiply"){
+         }else if(func == "×"){
              label2.setText(Double.toString(Double.parseDouble(label.getText()) * Double.parseDouble(label2.getText())));
-         }else if(func == "divide"){
+         }else if(func == "÷"){
              label2.setText(Double.toString(Double.parseDouble(label.getText()) / Double.parseDouble(label2.getText())));
          }else {
              label2.setText(Double.toString(0));
          }
-         label.setText(Double.toString(0));
+         label.setText("");
          func = "";
+         label3.setText("");
      }
      if(e.getSource() == buttonClear) {
-         label.setText(Double.toString(0));
+         label.setText("");
          label2.setText(Double.toString(0));
+         label3.setText("");
      }
  }
 
