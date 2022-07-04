@@ -1,3 +1,4 @@
+/*
 package Test2_managementSystem;
 
 import javax.swing.*;
@@ -10,8 +11,9 @@ public class ButtonN extends JButton implements ActionListener {
         this.addActionListener(this);
     }
     public void actionPerformed(ActionEvent e){
-        TextIntro label2 = new TextIntro();
+        TextIntro textIntro = new TextIntro();
         String buttonN = this.getText();
-        label2.setText(Double.toString(Double.parseDouble(label2.getText())*10 + 1));
+        textIntro.label2.setText(Double.toString(Double.parseDouble(textIntro.label2.getText())*10 + Double.parseDouble(buttonN)));
     }
 }
+*/

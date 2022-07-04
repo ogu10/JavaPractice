@@ -6,7 +6,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 
-public class TextIntro extends JFrame implements ActionListener{
+public class CalcDemo extends JFrame implements ActionListener{
     JLabel label;
     JLabel label2;
     JLabel label3;
@@ -29,7 +29,7 @@ public class TextIntro extends JFrame implements ActionListener{
     JButton buttonClear;
     String func;
 
-    public TextIntro(){
+    public CalcDemo(){
         setLocationByPlatform(true);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         label = new JLabel("",JLabel.RIGHT);
