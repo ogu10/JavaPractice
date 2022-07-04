@@ -22,11 +22,15 @@ public class TextIntro extends JFrame implements ActionListener{
  JButton button9;
  JButton button0;
  JButton buttonPlus;
+ JButton buttonMinus;
+ JButton buttonMultiple;
+ JButton buttonDivide;
  JButton buttonEqual;
  JButton buttonClear;
-
+ String func;
 
  public TextIntro(){
+     setLocationByPlatform(true);
      setDefaultCloseOperation(EXIT_ON_CLOSE);
      label = new JLabel("",JLabel.RIGHT);
      label2 = new JLabel("0",JLabel.RIGHT);
@@ -43,6 +47,9 @@ public class TextIntro extends JFrame implements ActionListener{
      button9 = new JButton("9");
      button0 = new JButton("0");
      buttonPlus = new JButton("+");
+     buttonMinus = new JButton("－");
+     buttonMultiple = new JButton("×");
+     buttonDivide = new JButton("÷");
      buttonEqual = new JButton("=");
      buttonClear = new JButton("Clear");
 
@@ -63,6 +70,9 @@ public class TextIntro extends JFrame implements ActionListener{
      add(button9);
      add(button0);
      add(buttonPlus);
+     add(buttonMinus);
+     add(buttonMultiple);
+     add(buttonDivide);
      add(buttonEqual);
      add(buttonClear);
 
@@ -77,9 +87,12 @@ public class TextIntro extends JFrame implements ActionListener{
      button9.addActionListener(this);
      button0.addActionListener(this);
      buttonPlus.addActionListener(this);
+     buttonMinus.addActionListener(this);
+     buttonMultiple.addActionListener(this);
+     buttonDivide.addActionListener(this);
      buttonEqual.addActionListener(this);
      buttonClear.addActionListener(this);
-     pack();
+     setSize(300,250);
      setVisible(true);
  }
 
@@ -116,11 +129,38 @@ public class TextIntro extends JFrame implements ActionListener{
      }
      if(e.getSource() == buttonPlus) {
          label.setText(Double.toString(Double.parseDouble(label2.getText())));
+         func = "plus";
+         label2.setText(Double.toString(0));
+     }
+     if(e.getSource() == buttonMinus) {
+         label.setText(Double.toString(Double.parseDouble(label2.getText())));
+         func = "minus";
+         label2.setText(Double.toString(0));
+     }
+     if(e.getSource() == buttonMultiple) {
+         label.setText(Double.toString(Double.parseDouble(label2.getText())));
+         func = "multiply";
+         label2.setText(Double.toString(0));
+     }
+     if(e.getSource() == buttonDivide) {
+         label.setText(Double.toString(Double.parseDouble(label2.getText())));
+         func = "divide";
          label2.setText(Double.toString(0));
      }
      if(e.getSource() == buttonEqual) {
-         label2.setText(Double.toString(Double.parseDouble(label.getText())) + Double.parseDouble(label2.getText()));
+         if (func == "plus") {
+             label2.setText(Double.toString(Double.parseDouble(label.getText()) + Double.parseDouble(label2.getText())));
+         }else if(func == "minus") {
+             label2.setText(Double.toString(Double.parseDouble(label.getText()) - Double.parseDouble(label2.getText())));
+         }else if(func == "multiply"){
+             label2.setText(Double.toString(Double.parseDouble(label.getText()) * Double.parseDouble(label2.getText())));
+         }else if(func == "divide"){
+             label2.setText(Double.toString(Double.parseDouble(label.getText()) / Double.parseDouble(label2.getText())));
+         }else {
+             label2.setText(Double.toString(0));
+         }
          label.setText(Double.toString(0));
+         func = "";
      }
      if(e.getSource() == buttonClear) {
          label.setText(Double.toString(0));
