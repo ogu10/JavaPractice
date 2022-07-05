@@ -6,7 +6,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 
-public class TextIntro extends JFrame implements ActionListener {
+public class CalculatorTest extends JFrame implements ActionListener {
     static JLabel label;
     static JLabel label2;
     static JLabel label3;
@@ -15,9 +15,9 @@ public class TextIntro extends JFrame implements ActionListener {
     JButton buttonClear;
     static String func;
 
-    public TextIntro() {
-        setLocationByPlatform(true);
-        setDefaultCloseOperation(EXIT_ON_CLOSE);
+    public CalculatorTest() {
+
+        //calculation format
         label = new JLabel("", JLabel.RIGHT);
         label2 = new JLabel("0", JLabel.RIGHT);
         label3 = new JLabel("", JLabel.RIGHT);
@@ -27,20 +27,12 @@ public class TextIntro extends JFrame implements ActionListener {
 
 
         setLayout(new GridLayout(5, 4, 0, 0));
-        add(label);
-        add(label3);
-        add(label4);
-        add(label2);
-        add(new ButtonNumber("1"));
-        add(new ButtonNumber("2"));
-        add(new ButtonNumber("3"));
-        add(new ButtonNumber("4"));
-        add(new ButtonNumber("5"));
-        add(new ButtonNumber("6"));
-        add(new ButtonNumber("7"));
-        add(new ButtonNumber("8"));
-        add(new ButtonNumber("9"));
-        add(new ButtonNumber("0"));
+        add(label,0);
+        add(label3,1);
+        add(label4,2);
+        add(label2,3);
+        for(int x=1; x <= 9; x++){add(new ButtonNumber(x));}
+        add(new ButtonNumber(0)); //I want to set 0 at last, so write out of loop
         add(new ButtonFunction("+"));
         add(new ButtonFunction("－"));
         add(new ButtonFunction("×"));
@@ -50,23 +42,27 @@ public class TextIntro extends JFrame implements ActionListener {
 
         buttonEqual.addActionListener(this);
         buttonClear.addActionListener(this);
+
+        //window setting
+        setLocationByPlatform(true);
+        setDefaultCloseOperation(EXIT_ON_CLOSE);
         setSize(300, 250);
         setVisible(true);
     }
 
-
+    //calculation function
     public void actionPerformed(ActionEvent e) {
 
         if (e.getSource() == buttonEqual) {
-            Double a = Double.parseDouble(label.getText());
-            Double b = Double.parseDouble(label2.getText());
+            Integer a = Integer.parseInt(label.getText());
+            Integer b = Integer.parseInt(label2.getText());
 
             switch (func) {
-                case "+" -> label2.setText(Double.toString(a + b));
-                case "－" -> label2.setText(Double.toString(a - b));
-                case "×" -> label2.setText(Double.toString(a * b));
-                case "÷" -> label2.setText(Double.toString(a / b));
-                default -> label2.setText(Double.toString(0));
+                case "+" -> label2.setText(Integer.toString(a + b));
+                case "－" -> label2.setText(Integer.toString(a - b));
+                case "×" -> label2.setText(Integer.toString(a * b));
+                case "÷" -> label2.setText(Integer.toString(a / b));
+                default -> label2.setText(Integer.toString(0));
             }
             ResetFunction.Reset();
         }
@@ -75,8 +71,9 @@ public class TextIntro extends JFrame implements ActionListener {
         }
     }
 
+    //call the class
     public static void main(String[] args) {
-        TextIntro textIntro = new TextIntro();
+        CalculatorTest calculatorTest = new CalculatorTest();
     }
 
 }

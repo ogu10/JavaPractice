@@ -1,3 +1,4 @@
+/*
 package Test2_managementSystem;
 
 import javax.swing.*;
@@ -98,10 +99,10 @@ public class CalcDemo extends JFrame implements ActionListener{
 
     public void actionPerformed(ActionEvent e){
         if(e.getSource() == button1) {
-            label2.setText(Double.toString(Double.parseDouble(label2.getText())*10 + 1));
+            label2.setText(Integer.toString(Integer.parseInt(label2.getText())*10 + 1));
         }
         if(e.getSource() == button2) {
-            label2.setText(Double.toString(Double.parseDouble(label2.getText())*10 + 2));
+            label2.setText(Integer.toString(Integer.parseInt(label2.getText())*10 + 2));
         }
         if(e.getSource() == button3) {
             label2.setText(Double.toString(Double.parseDouble(label2.getText())*10 + 3));
@@ -179,3 +180,4 @@ public class CalcDemo extends JFrame implements ActionListener{
     }
 }
 
+*/
