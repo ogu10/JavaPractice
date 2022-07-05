@@ -55,7 +55,7 @@ public class MyCalculator extends JFrame implements ActionListener {
 
         if (e.getSource() == buttonEqual) {
             int a = Integer.parseInt(label.getText());
-            Double b = Double.parseDouble(label2.getText());
+            int b = Integer.parseInt(label2.getText());
 
             switch (func) {
                 case "+" -> label2.setText(Double.toString(a + b));
