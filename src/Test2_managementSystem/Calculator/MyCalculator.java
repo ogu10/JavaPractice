@@ -58,10 +58,10 @@ public class MyCalculator extends JFrame implements ActionListener {
             int b = Integer.parseInt(label2.getText());
 
             switch (func) {
-                case "+" -> label2.setText(Integer.toString(a + b));
-                case "－" -> label2.setText(Integer.toString(a - b));
-                case "×" -> label2.setText(Integer.toString(a * b));
-                case "÷" -> label2.setText(Integer.toString(a / b));
+                case "+" -> label2.setText(Double.toString(a + b));
+                case "－" -> label2.setText(Double.toString(a - b));
+                case "×" -> label2.setText(Double.toString(a * b));
+                case "÷" -> label2.setText(Double.toString(a / b));
                 default -> label2.setText(Integer.toString(0));
             }
             ResetFunction.Reset();
