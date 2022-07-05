@@ -1,4 +1,4 @@
-package Test2_managementSystem;
+package Test2_managementSystem.Calculator;
 
 import javax.swing.*;
 import java.awt.*;
@@ -6,7 +6,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 
-public class CalculatorTest extends JFrame implements ActionListener {
+public class MyCalculator extends JFrame implements ActionListener {
     static JLabel label;
     static JLabel label2;
     static JLabel label3;
@@ -15,7 +15,7 @@ public class CalculatorTest extends JFrame implements ActionListener {
     JButton buttonClear;
     static String func;
 
-    public CalculatorTest() {
+    public MyCalculator() {
 
         //calculation format
         label = new JLabel("", JLabel.RIGHT);
@@ -73,7 +73,7 @@ public class CalculatorTest extends JFrame implements ActionListener {
 
     //call the class
     public static void main(String[] args) {
-        CalculatorTest calculatorTest = new CalculatorTest();
+        MyCalculator myCalculator = new MyCalculator();
     }
 
 }

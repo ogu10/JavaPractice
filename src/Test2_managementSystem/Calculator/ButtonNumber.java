@@ -1,4 +1,4 @@
-package Test2_managementSystem;
+package Test2_managementSystem.Calculator;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
@@ -13,6 +13,6 @@ public class ButtonNumber extends JButton implements ActionListener {
     //button function
     public void actionPerformed(ActionEvent e) {
         String buttonN = this.getText();
-        CalculatorTest.label2.setText(Integer.toString(Integer.parseInt(CalculatorTest.label2.getText()) * 10 + Integer.parseInt(buttonN)));
+        MyCalculator.label2.setText(Integer.toString(Integer.parseInt(MyCalculator.label2.getText()) * 10 + Integer.parseInt(buttonN)));
     }
 }
