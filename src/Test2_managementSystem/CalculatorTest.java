@@ -54,8 +54,8 @@ public class CalculatorTest extends JFrame implements ActionListener {
     public void actionPerformed(ActionEvent e) {
 
         if (e.getSource() == buttonEqual) {
-            Integer a = Integer.parseInt(label.getText());
-            Integer b = Integer.parseInt(label2.getText());
+            int a = Integer.parseInt(label.getText());
+            int b = Integer.parseInt(label2.getText());
 
             switch (func) {
                 case "+" -> label2.setText(Integer.toString(a + b));
