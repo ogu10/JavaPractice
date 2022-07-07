@@ -25,7 +25,7 @@ public class TimerSample{
             if(i%10==0){
                 System.out.println();
             }
-            if(i==20) System.exit(0);
+            if(i==40) System.exit(0);
         }
     }
 }
