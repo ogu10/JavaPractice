@@ -15,7 +15,7 @@ public class ButtonFunction extends JButton implements ActionListener {
         String buttonF = this.getText();
         MyCalculator.label.setText(Integer.toString(Integer.parseInt(MyCalculator.label2.getText())));
         MyCalculator.func = buttonF;
-        MyCalculator.label2.setText(Integer.toString(0));
+        MyCalculator.label2.setText("0");
         MyCalculator.label3.setText(MyCalculator.func);
     }
 }
