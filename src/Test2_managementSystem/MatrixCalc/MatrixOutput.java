@@ -1,5 +1,6 @@
 package Test2_managementSystem.MatrixCalc;
 
+
 public class MatrixOutput {
     public static StringBuilder formatMatrix(long[][] x) {
         StringBuilder sb = new StringBuilder();
