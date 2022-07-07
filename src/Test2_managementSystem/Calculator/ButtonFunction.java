@@ -9,6 +9,7 @@ public class ButtonFunction extends JButton implements ActionListener {
     public ButtonFunction(String buttonF) {
         super(buttonF);
         this.addActionListener(this);
+        addKeyListener(new KeyReaction());
     }
     //button function
     public void actionPerformed(ActionEvent e) {

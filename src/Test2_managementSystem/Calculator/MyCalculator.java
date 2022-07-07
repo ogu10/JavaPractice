@@ -43,7 +43,9 @@ public class MyCalculator extends JFrame implements ActionListener {
         add(buttonClear);
 
         buttonEqual.addActionListener(this);
+        buttonEqual.addKeyListener(new KeyReaction());
         buttonClear.addActionListener(this);
+        buttonClear.addKeyListener(new KeyReaction());
         addKeyListener(new KeyReaction());
 
         //window setting
@@ -60,13 +62,13 @@ public class MyCalculator extends JFrame implements ActionListener {
 
         if (e.getSource() == buttonEqual) {
             int a = Integer.parseInt(label.getText());
-            Double b = Double.parseDouble(label2.getText());
+            int b = Integer.parseInt(label2.getText());
 
             switch (func) {
-                case "+" -> label2.setText(Double.toString(a + b));
-                case "－" -> label2.setText(Double.toString(a - b));
-                case "×" -> label2.setText(Double.toString(a * b));
-                case "÷" -> label2.setText(Double.toString(a / b));
+                case "+" -> label2.setText(Integer.toString(a + b));
+                case "－" -> label2.setText(Integer.toString(a - b));
+                case "×" -> label2.setText(Integer.toString(a * b));
+                case "÷" -> label2.setText(Integer.toString(a / b));
                 default -> label2.setText(Integer.toString(0));
             }
             ResetFunction.Reset();

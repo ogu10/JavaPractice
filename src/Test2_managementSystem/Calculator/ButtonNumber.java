@@ -11,7 +11,7 @@ public class ButtonNumber extends JButton implements ActionListener {
     public ButtonNumber(int buttonN) {
         super(Integer.toString(buttonN));
         this.addActionListener(this);
-
+        addKeyListener(new KeyReaction());
     }
     //button function
     public void actionPerformed(ActionEvent e) {
