@@ -1,5 +1,7 @@
 package Test2_managementSystem.Calculator;
 
+import Test2_managementSystem.MyTimer;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -12,7 +14,8 @@ public class MyCalculator extends JFrame implements ActionListener {
     static JLabel label;
     static JLabel label2;
     static JLabel label3;
-    static JLabel label4;
+    public static JLabel label4;
+    public static JLabel label5;
     JButton buttonEqual;
     JButton buttonClear;
     static String func;
@@ -24,15 +27,17 @@ public class MyCalculator extends JFrame implements ActionListener {
         label2 = new JLabel("0", JLabel.RIGHT);
         label3 = new JLabel("", JLabel.RIGHT);
         label4 = new JLabel("", JLabel.RIGHT);
+        label5 = new JLabel("", JLabel.RIGHT);
         buttonEqual = new JButton("=");
         buttonClear = new JButton("Clear");
 
 
-        setLayout(new GridLayout(5, 4, 0, 0));
-        add(label,0);
-        add(label3,1);
-        add(label4,2);
-        add(label2,3);
+        setLayout(new GridLayout(5, 5, 0, 0));
+        add(label5);
+        add(label);
+        add(label3);
+        add(label2);
+        add(label4);
         for(int x=1; x <= 9; x++){add(new ButtonNumber(x));}
         add(new ButtonNumber(0)); //I want to set 0 at last, so write out of loop
         add(new ButtonFunction("+"));
@@ -47,11 +52,13 @@ public class MyCalculator extends JFrame implements ActionListener {
         buttonClear.addActionListener(this);
         buttonClear.addKeyListener(new KeyReaction());
         addKeyListener(new KeyReaction());
+        MyTimer timer = new MyTimer();
+        timer.MyTimer();
 
         //window setting
         setLocationByPlatform(true);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
-        setSize(300, 250);
+        setSize(350, 280);
         setVisible(true);
         this.setFocusable(true);
         this.setAlwaysOnTop(true);
