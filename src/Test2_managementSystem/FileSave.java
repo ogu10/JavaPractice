@@ -4,6 +4,7 @@ import javax.swing.*;
 import java.io.*;
 import java.awt.BorderLayout;
 import java.awt.event.*;
+import java.util.Scanner;
 
 public class FileSave extends JFrame implements ActionListener {
 
@@ -41,13 +42,27 @@ public class FileSave extends JFrame implements ActionListener {
         int retrival = chooser.showSaveDialog(null);
         if (retrival == JFileChooser.APPROVE_OPTION) {
             try {
-
                 File fout = new File(chooser.getSelectedFile() + ".txt");
                 FileOutputStream fos = new FileOutputStream(fout);
-                BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(fos));
+                BufferedWriter fw = new BufferedWriter(new OutputStreamWriter(fos));
 
-                bw.write("sajan");
-                bw.close();
+                Scanner scan = new Scanner(System.in);
+                int n = scan.nextInt();
+
+                    fw.write("Create "+n+"th Pyramid\n");
+                    for(int i=0;i<n;i++) {
+                        for (int j = 0; j <= i; j++) {
+                            fw.write("*");
+                        }
+                        fw.write("\n");
+                    }
+                    for (int k=n-2;k>=0;k--){
+                        for (int l=0;l<=k;l++){
+                            fw.write("*");
+                        }
+                        fw.write("\n");
+                    }
+                    fw.close();
 
             } catch (Exception ex) {
                 ex.printStackTrace();
