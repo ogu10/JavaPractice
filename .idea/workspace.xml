@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6843c406-03d3-42cd-bf89-4021863c22f2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PyramidTest.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test2_managementSystem/FileSave.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestDayo.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test2_managementSystem/FileSaveRevenge.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/Test2_managementSystem/FileOutput.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/Test2_managementSystem/FileOutput.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/Test2_managementSystem/PyramidTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/Test2_managementSystem/PyramidTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/Test2_managementSystem/FileSave.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/Test2_managementSystem/FileSave.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Test2_managementSystem/FileOutput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test2_managementSystem/FileOutput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test2_managementSystem/FileSave.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test2_managementSystem/FileSave.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,8 +53,21 @@
   }
 }]]></component>
   <component name="RunManager" selected="Application.Test2_managementSystem.FileSave">
-    <configuration name="FileSave" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test2_managementSystem.FileSave" />
+    <configuration name="FileOutput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test2_managementSystem.FileOutput" />
+      <module name="JavaPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test2_managementSystem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileSaveRevenge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test2_managementSystem.FileSaveRevenge" />
       <module name="JavaPractice" />
       <extension name="coverage">
         <pattern>
@@ -80,8 +92,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test2_managementSystem.FileOutput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test2_managementSystem.FileOutput" />
+    <configuration name="Test2_managementSystem.FileSave" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test2_managementSystem.FileSave" />
       <module name="JavaPractice" />
       <extension name="coverage">
         <pattern>
@@ -96,6 +108,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Test2_managementSystem.FileSave" />
+        <item itemvalue="Application.FileSaveRevenge" />
         <item itemvalue="Application.Test2_managementSystem.FileOutput" />
         <item itemvalue="Application.MyCalculator" />
       </list>
@@ -109,7 +122,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1657254854853</updated>
-      <workItem from="1657254856449" duration="6396000" />
+      <workItem from="1657254856449" duration="9378000" />
     </task>
     <servers />
   </component>
