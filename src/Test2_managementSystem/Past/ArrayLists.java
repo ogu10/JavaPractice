@@ -1,6 +1,7 @@
 package Test2_managementSystem;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
@@ -70,9 +71,10 @@ public class ArrayLists {
                         System.out.println("[Chemistry] " + chemistry);
                         System.out.println("[Physics] " + physics);
                         System.out.println("[Average] " + (math + chemistry + physics) / 3 + " (qualified by 60 points)");
+                        Collections.sort(passedStudents);
                         System.out.print("\u001b[00;36mPassed Students are ");
-                        for (int t = 0; t < passedStudents.size(); t++) {
-                            System.out.print(passedStudents.get(t) + ", ");
+                        for (String t : passedStudents) {
+                            System.out.print(t + ", ");
                         }
                         System.out.println("\u001b[00m");
 
@@ -83,7 +85,6 @@ public class ArrayLists {
 
                     System.out.println("\r");
                     System.out.println("--bye bye--");
-
 
 
     }
