@@ -10,19 +10,18 @@ public class FileOutput {
         int n = scan.nextInt();
         try {
             FileWriter fw = new FileWriter("PyramidTest.txt",true);
-            for(int i=0;i<=n;i++) {
-                for (int j = 0; j <= i; j++) {
-                    fw.write("*");
+                for(int i=0;i<=n;i++) {
+                    for (int j = 0; j <= i; j++) {
+                        fw.write("*");
+                    }
+                    fw.write("\n");
                 }
-                fw.write("\n");
-            }
-
-            for (int k=n-1;k>=0;k--){
-                for (int l=0;l<=k;l++){
-                    fw.write("*");
+                for (int k=n-1;k>=0;k--){
+                    for (int l=0;l<=k;l++){
+                        fw.write("*");
+                    }
+                    fw.write("\n");
                 }
-                fw.write("\n");
-            }
             fw.close();
         } catch (IOException ex) {
             ex.printStackTrace();
