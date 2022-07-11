@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6843c406-03d3-42cd-bf89-4021863c22f2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Test2_managementSystem/FileLoad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test2_managementSystem/Past/FileSaveRevenge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestDayo.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/Test2_managementSystem/FileSave.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/Test2_managementSystem/FileSave.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/Test2_managementSystem/PyramidTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/Test2_managementSystem/PyramidTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/nn.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/ogura.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sajan.txt.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test2_managementSystem/FileSave.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test2_managementSystem/FileSave.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test2_managementSystem/FileSaveRevenge.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test2_managementSystem/PyramidTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test2_managementSystem/PyramidTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nn.txt" beforeDir="false" />
-    </list>
+    <list default="true" id="6843c406-03d3-42cd-bf89-4021863c22f2" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -143,7 +129,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1657254854853</updated>
-      <workItem from="1657254856449" duration="17537000" />
+      <workItem from="1657254856449" duration="18226000" />
     </task>
     <servers />
   </component>
