@@ -1,4 +1,4 @@
-package Test2_managementSystem;
+package Test2_managementSystem.FileTreatment;
 
 import javax.swing.*;
 import java.awt.*;
@@ -24,7 +24,7 @@ public class FileLoad extends JFrame implements ActionListener {
     }
 
     FileLoad() {
-        JButton button = new JButton("load select");
+        JButton button = new JButton("select file to load");
         button.addActionListener(this);
 
         JPanel buttonPanel = new JPanel();
@@ -43,24 +43,18 @@ public class FileLoad extends JFrame implements ActionListener {
         int approveReaction = filechooser.showOpenDialog(null);
         if (approveReaction == JFileChooser.APPROVE_OPTION) {
             try {
-/*                File target = new File(String.valueOf(chooser.getSelectedFile()));
-                FileOutputStream fos = new FileOutputStream(target);
-                BufferedWriter fw = new BufferedWriter(new OutputStreamWriter(fos));
-                fw.write("CONTENTS NOW!!");
-                fw.close();
-
-                String content = Files.readString(fos);
-                System.out.println(content);*/
 
                 File file = filechooser.getSelectedFile();
-                label.setText(file.getName());
+                label.setText("You loaded " +file.getName());
 
                 Path path = Paths.get(String.valueOf(file));
                 String content = Files.readString(path);
+                System.out.println("path is " + path);
+                System.out.println("file is " + file);
                 System.out.println(content);
 
             } catch (Exception ex) {
-                label.setText("Cancel DA-A-YO");
+                label.setText("Error DA-A-YO");
                 ex.printStackTrace();
             }
 

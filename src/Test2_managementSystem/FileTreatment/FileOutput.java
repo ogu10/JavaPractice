@@ -13,13 +13,13 @@ public class FileOutput {
             fw.write("Create "+n+"th Pyramid\n");
                 for(int i=0;i<n;i++) {
                     for (int j = 0; j <= i; j++) {
-                        fw.write("○");
+                        fw.write("*");
                     }
                     fw.write("\n");
                 }
                 for (int k=n-2;k>=0;k--){
                     for (int l=0;l<=k;l++){
-                        fw.write("○");
+                        fw.write("*");
                     }
                     fw.write("\n");
                 }
