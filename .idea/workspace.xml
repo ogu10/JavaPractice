@@ -5,24 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6843c406-03d3-42cd-bf89-4021863c22f2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/PyramidTest.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test2_managementSystem/FileTreatment/FileInput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test2_managementSystem/FileTreatment/FileLoad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test2_managementSystem/FileTreatment/FileOutput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test2_managementSystem/FileTreatment/FileReaderPre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test2_managementSystem/FileTreatment/FileSave.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test2_managementSystem/FileTreatment/PyramidTest.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test2_managementSystem/ShowaConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test2_managementSystem/Calculator/Labels.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test2_managementSystem/Calculator/TextFields.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/Test2_managementSystem/FileLoad.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/Test2_managementSystem/FileOutput.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/Test2_managementSystem/FileOutput.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/Test2_managementSystem/MyWords.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/Test2_managementSystem/PyramidTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test2_managementSystem/FileLoad.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test2_managementSystem/FileOutput.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test2_managementSystem/FileSave.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test2_managementSystem/Past/MyWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test2_managementSystem/Past/MyWords.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test2_managementSystem/PyramidTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/Test2_managementSystem/FreeLength.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/Test2_managementSystem/NumberingFunc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/Test2_managementSystem/NumberingNest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/Test2_managementSystem/NumberingSwap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/Test2_managementSystem/Searching.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/Test2_managementSystem/ShowaConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/Test2_managementSystem/ShowaConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/Test2_managementSystem/Swap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/Test2_managementSystem/SwapForFL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test2_managementSystem/Past/FreeLength.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test2_managementSystem/Past/FreeLength.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test2_managementSystem/Past/NumberingFunc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test2_managementSystem/Past/NumberingFunc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test2_managementSystem/Past/NumberingNest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test2_managementSystem/Past/NumberingNest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test2_managementSystem/Past/NumberingSwap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test2_managementSystem/Past/NumberingSwap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test2_managementSystem/Past/Searching.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test2_managementSystem/Past/Searching.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test2_managementSystem/Past/Swap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test2_managementSystem/Past/Swap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test2_managementSystem/Past/SwapForFL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test2_managementSystem/Past/SwapForFL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test2_managementSystem/ShowaConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test2_managementSystem/ShowaConverter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +149,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1657254854853</updated>
-      <workItem from="1657254856449" duration="26930000" />
+      <workItem from="1657254856449" duration="30114000" />
     </task>
     <servers />
   </component>
@@ -160,7 +161,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="20220711" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -168,51 +181,5 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Test2_managementSystem/ShowaConverter.java</url>
-          <line>88</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Test2_managementSystem/ShowaConverter.java</url>
-          <line>95</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Test2_managementSystem/ShowaConverter.java</url>
-          <line>101</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Test2_managementSystem/ShowaConverter.java</url>
-          <line>99</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Test2_managementSystem/ShowaConverter.java</url>
-          <line>107</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Test2_managementSystem/ShowaConverter.java</url>
-          <line>97</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Test2_managementSystem/ShowaConverter.java</url>
-          <line>96</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Test2_managementSystem/ShowaConverter.java</url>
-          <line>98</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
