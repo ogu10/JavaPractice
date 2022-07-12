@@ -13,6 +13,7 @@ public class ShowaConverter extends JFrame implements ActionListener {
     static JTextField monthInput;
     static JTextField dayInput;
     static JButton buttonConvert;
+    public static JLabel eraOutput;
     public static JLabel ageOutput;
 
     public ShowaConverter() {
@@ -22,6 +23,7 @@ public class ShowaConverter extends JFrame implements ActionListener {
         yearInput = new JTextField(10);
         monthInput = new JTextField(10);
         dayInput = new JTextField(10);
+        eraOutput = new JLabel("", JLabel.RIGHT);
         ageOutput = new JLabel("", JLabel.RIGHT);
         buttonConvert = new JButton("Check!");
 
@@ -37,7 +39,8 @@ public class ShowaConverter extends JFrame implements ActionListener {
         add(dayInput);
         for(int i=0;i<3;i++){add(new Labels(""));}
         add(buttonConvert);
-        for(int i=0;i<2;i++){add(new Labels(""));}
+        add(eraOutput);
+        add(new Labels(""));
         add(new Labels("Age: "));
         add(ageOutput);
 
@@ -59,6 +62,7 @@ public class ShowaConverter extends JFrame implements ActionListener {
         int month = Integer.parseInt(monthInput.getText());
         int day = Integer.parseInt(dayInput.getText());
         int age = 0;
+        int eraOut = 2022;
 
         Calendar calendar = Calendar.getInstance();
         int yearThis = calendar.get(Calendar.YEAR);
@@ -82,8 +86,16 @@ public class ShowaConverter extends JFrame implements ActionListener {
                     default -> age = standard - 1;
                 }
             }
+
+            switch (era) {
+                case "S" -> eraOut = year + 1925;
+                case "H" -> eraOut = year + 1988;
+                case "R" -> eraOut = year + 2018;
+                default -> age = year;
+            }
         }
 
+        eraOutput.setText(Integer.toString(eraOut));
         ageOutput.setText(Integer.toString(age));
     }
 
