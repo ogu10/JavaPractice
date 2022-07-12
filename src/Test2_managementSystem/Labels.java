@@ -1,4 +1,4 @@
-package Test2_managementSystem.Calculator;
+package Test2_managementSystem;
 
 import javax.swing.*;
 

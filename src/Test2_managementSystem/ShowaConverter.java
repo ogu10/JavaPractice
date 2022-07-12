@@ -1,10 +1,10 @@
 package Test2_managementSystem;
 
-import Test2_managementSystem.Calculator.Labels;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.Calendar;
 
 
 public class ShowaConverter extends JFrame implements ActionListener {
@@ -35,12 +35,9 @@ public class ShowaConverter extends JFrame implements ActionListener {
         add(yearInput);
         add(monthInput);
         add(dayInput);
-        add(new Labels(""));
-        add(new Labels(""));
-        add(new Labels(""));
+        for(int i=0;i<3;i++){add(new Labels(""));}
         add(buttonConvert);
-        add(new Labels(""));
-        add(new Labels(""));
+        for(int i=0;i<2;i++){add(new Labels(""));}
         add(new Labels("Age: "));
         add(ageOutput);
 
@@ -62,33 +59,27 @@ public class ShowaConverter extends JFrame implements ActionListener {
         int month = Integer.parseInt(monthInput.getText());
         int day = Integer.parseInt(dayInput.getText());
         int age = 0;
-        int monthThis = 7;
-        int dayThis = 12;
+
+        Calendar calendar = Calendar.getInstance();
+        int yearThis = calendar.get(Calendar.YEAR);
+        int monthThis = calendar.get(Calendar.MONTH) + 1;
+        int dayThis = calendar.get(Calendar.DATE);
+        int standard = yearThis - year;
 
         if (e.getSource() == buttonConvert) {
-            if (era.equals("S")){
-                if(month >= monthThis && day >= dayThis){
-                    age = 96 - year;
-                }else{
-                    age = 97 - year;
+            if (month > monthThis || (month == monthThis && day > dayThis)) {
+                switch (era) {
+                    case "S" -> age = standard - 1926;
+                    case "H" -> age = standard - 1989;
+                    case "R" -> age = standard - 2019;
+                    default -> age = standard;
                 }
-            }else if(era.equals("H")){
-                if(month >= monthThis && day >= dayThis){
-                    age = 33 - year;
-                }else{
-                    age = 34 - year;
-                }
-            }else if(era.equals("R")){
-                if(month >= monthThis && day >= dayThis){
-                    age = 3 - year;
-                }else{
-                    age = 4 - year;
-                }
-            }else{
-                if(month >= monthThis && day >= dayThis){
-                    age = 2021 - year;
-                }else{
-                    age = 2022 - year;
+            } else {
+                switch (era) {
+                    case "S" -> age = standard - 1925;
+                    case "H" -> age = standard - 1988;
+                    case "R" -> age = standard - 2018;
+                    default -> age = standard - 1;
                 }
             }
         }
