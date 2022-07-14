@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6843c406-03d3-42cd-bf89-4021863c22f2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/Test2_managementSystem/Labels.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/Test2_managementSystem/Labels.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test2_managementSystem/Labels.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test2_managementSystem/Labels.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Test2_managementSystem/ShowaConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test2_managementSystem/ShowaConverter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +50,7 @@
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ShowaConverter">
+  <component name="RunManager" selected="Application.FileLoad">
     <configuration name="FileInput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Test2_managementSystem.FileInput" />
       <module name="JavaPractice" />
@@ -62,12 +64,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileReaderPre" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test2_managementSystem.FileReaderPre" />
+    <configuration name="FileLoad" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test2_managementSystem.FileTreatment.FileLoad" />
       <module name="JavaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Test2_managementSystem.*" />
+          <option name="PATTERN" value="Test2_managementSystem.FileTreatment.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FileLoad" />
         <item itemvalue="Application.ShowaConverter" />
         <item itemvalue="Application.MyCalculator" />
         <item itemvalue="Application.MyWords" />
         <item itemvalue="Application.FileInput" />
-        <item itemvalue="Application.FileReaderPre" />
       </list>
     </recent_temporary>
   </component>
@@ -132,7 +134,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1657254854853</updated>
-      <workItem from="1657254856449" duration="34631000" />
+      <workItem from="1657254856449" duration="42199000" />
     </task>
     <servers />
   </component>

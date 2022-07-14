@@ -49,8 +49,8 @@ public class FileLoad extends JFrame implements ActionListener {
 
                 Path path = Paths.get(String.valueOf(file));
                 String content = Files.readString(path);
-                System.out.println("path is " + path);
-                System.out.println("file is " + file);
+//                System.out.println("path is " + path);
+//                System.out.println("file is " + file);
                 System.out.println(content);
 
             } catch (Exception ex) {

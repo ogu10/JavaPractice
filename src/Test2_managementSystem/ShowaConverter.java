@@ -12,7 +12,7 @@ public class ShowaConverter extends JFrame implements ActionListener {
     static JTextField yearInput;
     static JTextField monthInput;
     static JTextField dayInput;
-    static JButton buttonConvert;
+    public static JButton buttonConvert;
     public static JLabel eraOutput;
     public static JLabel ageOutput;
 

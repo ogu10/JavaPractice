@@ -20,3 +20,5 @@ Create 11th Pyramid
 +++
 ++
 +
+a
+ありがとう
