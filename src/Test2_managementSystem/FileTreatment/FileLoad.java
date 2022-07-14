@@ -4,9 +4,13 @@ import javax.swing.*;
 import java.awt.*;
 import java.io.*;
 import java.awt.event.*;
+import java.nio.charset.Charset;
+import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+
+import static java.nio.charset.StandardCharsets.UTF_8;
 
 public class FileLoad extends JFrame implements ActionListener {
 
@@ -48,10 +52,14 @@ public class FileLoad extends JFrame implements ActionListener {
                 label.setText("You loaded " +file.getName());
 
                 Path path = Paths.get(String.valueOf(file));
+
                 String content = Files.readString(path);
 //                System.out.println("path is " + path);
 //                System.out.println("file is " + file);
-                System.out.println(content);
+                //System.out.println(content);
+
+                PrintStream out = new PrintStream(System.out, true, UTF_8);
+                out.println(content);
 
             } catch (Exception ex) {
                 label.setText("Error DA-A-YO");
