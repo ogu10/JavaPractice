@@ -4,14 +4,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.io.*;
 import java.awt.event.*;
-import java.nio.charset.Charset;
-import java.nio.charset.StandardCharsets;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
 
-import static Test2_managementSystem.GenerateArrayFunc.geneArray;
-import static java.nio.charset.StandardCharsets.UTF_8;
 
 public class SelectLoader extends JFrame implements ActionListener {
     JLabel label;
