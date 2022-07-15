@@ -1,4 +1,4 @@
-package Test2_managementSystem.FileTreatment;
+package Test2_managementSystem;
 
 import javax.swing.*;
 import java.awt.*;
@@ -10,15 +10,13 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
+import static Test2_managementSystem.GenerateArrayFunc.geneArray;
 import static java.nio.charset.StandardCharsets.UTF_8;
 
-public class FileLoad extends JFrame implements ActionListener {
-
+public class SelectLoader extends JFrame implements ActionListener {
     JLabel label;
-
-
     public static void main(String[] args) {
-        FileLoad frame = new FileLoad();
+        SelectLoader frame = new SelectLoader();
 
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setBounds(10, 10, 300, 200);
@@ -27,7 +25,7 @@ public class FileLoad extends JFrame implements ActionListener {
         frame.setVisible(true);
     }
 
-    FileLoad() {
+    SelectLoader() {
         JButton button = new JButton("select file to load");
         button.addActionListener(this);
 
@@ -49,17 +47,7 @@ public class FileLoad extends JFrame implements ActionListener {
             try {
 
                 File file = filechooser.getSelectedFile();
-                label.setText("You loaded " +file.getName());
-
-                Path path = Paths.get(String.valueOf(file));
-
-                String content = Files.readString(path);
-//                System.out.println("path is " + path);
-//                System.out.println("file is " + file);
-                //System.out.println(content);
-
-                PrintStream out = new PrintStream(System.out, true, UTF_8);
-                out.println(content);
+                geneArray(file.getName());
 
             } catch (Exception ex) {
                 label.setText("Error DA-A-YO");
