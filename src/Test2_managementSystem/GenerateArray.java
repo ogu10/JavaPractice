@@ -6,7 +6,7 @@ public class GenerateArray {
     public static void main(String[] args) {
         BufferedReader br = null;
         String file_name = "trial.txt";
-        final int MAX_DATA_NUMS = 100;
+        final int MAX_DATA_NUMS = 100; //まあここはなんでも
         String[][] data = new String[MAX_DATA_NUMS][];
         try {
             File file = new File(file_name);

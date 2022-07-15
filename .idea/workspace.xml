@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6843c406-03d3-42cd-bf89-4021863c22f2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Test2_managementSystem/GenerateArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test2_managementSystem/LoadArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trial.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test2_managementSystem/ReadWords.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShowaConverter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test2_managementSystem.ShowaConverter" />
+    <configuration name="ReadWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test2_managementSystem.ReadWords" />
       <module name="JavaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Test2_managementSystem.GenerateArray" />
+          <option name="PATTERN" value="Test2_managementSystem.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,10 +116,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.GenerateArray" />
+        <item itemvalue="Application.ReadWords" />
         <item itemvalue="Application.MatrixPre" />
         <item itemvalue="Application.Test2_managementSystem.LoadArray" />
         <item itemvalue="Application.FileLoad" />
-        <item itemvalue="Application.Test2_managementSystem.ShowaConverter" />
       </list>
     </recent_temporary>
   </component>
@@ -134,7 +131,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1657254854853</updated>
-      <workItem from="1657254856449" duration="53106000" />
+      <workItem from="1657254856449" duration="54227000" />
     </task>
     <servers />
   </component>
