@@ -1,4 +1,5 @@
-package Test2_managementSystem;
+/*
+package Test2_managementSystem.Past;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -19,3 +20,4 @@ public class NumberingFunc {
     }
 
 }
+*/

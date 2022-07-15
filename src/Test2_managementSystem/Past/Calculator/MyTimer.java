@@ -3,7 +3,6 @@ package Test2_managementSystem;
 import Test2_managementSystem.Calculator.MyCalculator;
 
 import javax.swing.*;
-import java.awt.*;
 import java.util.Timer;
 import java.util.TimerTask;
 
@@ -34,17 +33,21 @@ public class MyTimer extends JFrame{
 
     class TimeCounter extends TimerTask{
         public void run() {
-            MyCalculator.label4.setText(hour+":"+min+":"+sec);
-            sec++;
-            if (sec%60 == 0){
-                min++;
-                sec = 0;
-            }
+            if (sec%60 == 0 & sec != 0){min++;
+                sec = 0;}
+            if (min%60 == 0 & min != 0){hour++;
+                min = 0;}
 
-            if (min%60 == 0 & min != 0){
-                hour++;
-                min = 0;
+            if(min<10 & sec<10){
+                MyCalculator.label4.setText(hour+":0"+min+":0"+sec);
+            }else if(min<10){
+                MyCalculator.label4.setText(hour+":0"+min+":"+sec);
+            }else if(sec<10){
+                MyCalculator.label4.setText(hour+":"+min+":0"+sec);
+            }else {
+                MyCalculator.label4.setText(hour + ":" + min + ":" + sec);
             }
+            sec++;
         }
     }
 }

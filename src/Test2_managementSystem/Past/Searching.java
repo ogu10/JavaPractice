@@ -1,3 +1,4 @@
+/*
 package Test2_managementSystem;
 
 import java.util.Scanner;
@@ -24,3 +25,4 @@ public class Searching {
         }
     }
 }
+*/
