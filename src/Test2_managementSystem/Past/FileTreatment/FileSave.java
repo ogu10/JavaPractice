@@ -1,4 +1,4 @@
-package Test2_managementSystem;
+package Test2_managementSystem.Past.FileTreatment;
 
 import javax.swing.*;
 import java.awt.*;

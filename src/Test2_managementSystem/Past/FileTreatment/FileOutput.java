@@ -1,4 +1,4 @@
-package Test2_managementSystem;
+package Test2_managementSystem.Past.FileTreatment;
 
 import java.io.FileWriter;
 import java.io.IOException;
