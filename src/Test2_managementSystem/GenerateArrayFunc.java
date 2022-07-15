@@ -18,7 +18,7 @@ public class GenerateArrayFunc {
             String line;
             while ((line = br.readLine()) != null) {
 
-                data[index] = line.split(",");
+                data[index] = line.split("");
                 index++;
             }
         } catch (Exception e) {

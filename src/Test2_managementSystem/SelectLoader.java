@@ -47,7 +47,8 @@ public class SelectLoader extends JFrame implements ActionListener {
             try {
 
                 File file = filechooser.getSelectedFile();
-                geneArray(String.valueOf(file));
+                /*GenerateArrayFunc.geneArray(String.valueOf(file));*/
+                LoadByWords.geneByWords(String.valueOf(file));
 
             } catch (Exception ex) {
                 label.setText("Error DA-A-YO");
