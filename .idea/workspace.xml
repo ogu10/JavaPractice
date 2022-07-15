@@ -5,67 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6843c406-03d3-42cd-bf89-4021863c22f2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Test2_managementSystem/GenerateArrayFunc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test2_managementSystem/Loaders/LoadArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test2_managementSystem/Loaders/ReadWords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test2_managementSystem/Past/Calculator/ButtonFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test2_managementSystem/Past/Calculator/ButtonNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test2_managementSystem/Past/Calculator/CalcDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test2_managementSystem/Past/Calculator/CalcSample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test2_managementSystem/Past/Calculator/ClearFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test2_managementSystem/Past/Calculator/KeyInput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test2_managementSystem/Past/Calculator/KeyReaction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test2_managementSystem/Past/Calculator/MyCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test2_managementSystem/Past/Calculator/MyTimer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test2_managementSystem/Past/Calculator/ResetFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test2_managementSystem/Past/Calculator/SetFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test2_managementSystem/Past/FileTreatment/FileInput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test2_managementSystem/Past/FileTreatment/FileLoad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test2_managementSystem/Past/FileTreatment/FileOutput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test2_managementSystem/Past/FileTreatment/FileReaderPre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test2_managementSystem/Past/FileTreatment/FileSave.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test2_managementSystem/Past/FileTreatment/PyramidTest.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test2_managementSystem/Past/MatrixCalc/MatrixCalc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test2_managementSystem/Past/MatrixCalc/MatrixFormat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test2_managementSystem/Past/MatrixCalc/MatrixOutput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test2_managementSystem/Past/MatrixCalc/MatrixPre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test2_managementSystem/Past/MatrixCalc/PyramidChallenge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test2_managementSystem/Past/MatrixCalc/PyramidFuncPlus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test2_managementSystem/Past/ShowaConverter/Labels.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test2_managementSystem/Past/ShowaConverter/ShowaConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test2_managementSystem/Past/ShowaConverter/TextFields.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test2_managementSystem/SelectLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test2_managementSystem/trial.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trial2.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/Test2_managementSystem/GenerateArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/Test2_managementSystem/GenerateArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/Test2_managementSystem/ReadWords.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test2_managementSystem/Calculator/ButtonFunction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test2_managementSystem/Calculator/ButtonNumber.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test2_managementSystem/Calculator/CalcDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test2_managementSystem/Calculator/CalcSample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test2_managementSystem/Calculator/ClearFunction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test2_managementSystem/Calculator/KeyInput.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test2_managementSystem/Calculator/KeyReaction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test2_managementSystem/Calculator/MyCalculator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test2_managementSystem/Calculator/MyTimer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test2_managementSystem/Calculator/ResetFunction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test2_managementSystem/Calculator/SetFunction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test2_managementSystem/FileTreatment/FileInput.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test2_managementSystem/FileTreatment/FileLoad.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test2_managementSystem/FileTreatment/FileOutput.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test2_managementSystem/FileTreatment/FileReaderPre.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test2_managementSystem/FileTreatment/FileSave.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test2_managementSystem/FileTreatment/PyramidTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test2_managementSystem/Labels.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test2_managementSystem/LoadArray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test2_managementSystem/MatrixCalc/MatrixCalc.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test2_managementSystem/MatrixCalc/MatrixFormat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test2_managementSystem/MatrixCalc/MatrixOutput.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test2_managementSystem/MatrixCalc/MatrixPre.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test2_managementSystem/MatrixCalc/PyramidChallenge.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test2_managementSystem/MatrixCalc/PyramidFuncPlus.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test2_managementSystem/ReadWords.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test2_managementSystem/ShowaConverter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test2_managementSystem/TextFields.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/Test2_managementSystem/SelectLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/Test2_managementSystem/SelectLoader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test2_managementSystem/GenerateArrayFunc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test2_managementSystem/GenerateArrayFunc.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,7 +135,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1657254854853</updated>
-      <workItem from="1657254856449" duration="55221000" />
+      <workItem from="1657254856449" duration="56177000" />
     </task>
     <servers />
   </component>
