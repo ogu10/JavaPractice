@@ -1,4 +1,4 @@
-package Test2_managementSystem;
+package Test2_managementSystem.ArrayLoad;
 
 import javax.swing.*;
 import java.awt.*;
@@ -40,12 +40,7 @@ public class SelectLoader extends JFrame implements ActionListener {
             try {
 
                 File file = filechooser.getSelectedFile();
-                /*GenerateArrayFunc.geneArray(String.valueOf(file));*/
                 LoadByWords.geneByWords(String.valueOf(file));
-/*                System.out.println();
-                System.out.println();
-                System.out.println();
-                LengthFree.geneByWords(String.valueOf(file));*/
 
             } catch (Exception ex) {
                 label.setText("Error DA-A-YO");

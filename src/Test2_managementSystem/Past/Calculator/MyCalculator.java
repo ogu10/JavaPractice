@@ -1,6 +1,6 @@
-package Test2_managementSystem.Calculator;
+package Test2_managementSystem.Past.Calculator;
 
-import Test2_managementSystem.MyTimer;
+import Test2_managementSystem.Past.Calculator.MyTimer;
 
 import javax.swing.*;
 import java.awt.*;

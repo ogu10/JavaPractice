@@ -1,4 +1,4 @@
-package Test2_managementSystem;
+package Test2_managementSystem.ArrayLoad;
 
 import java.io.*;
 
@@ -6,36 +6,23 @@ public class LoadByWords {
     public static void geneByWords(String f){
         BufferedReader br = null;
         String file_name = f;
-        final int MAX_DATA_NUMS = 8; //まあここはなんでも
+        final int MAX_DATA_NUMS = 20; //まあここはなんでも
         char[][] data = new char[MAX_DATA_NUMS][MAX_DATA_NUMS];
 
         try {
             File file = new File(file_name);
             br = new BufferedReader(new FileReader(file));
-/*                    int index = 0;
-                    int length = 0;
-                    String line;
-                    while ((line = br.readLine()) != null) {
-                        datum[index] = line.split("");
-                        index++;
-                    }
-                    for (int s=0;s<20;s++){
-                        if (length < datum[s].length){
-                            length = datum[s].length;
-                        }
-                    }
-                    System.out.println(length);*/
 
-            for (int i=0;i<8;i++) {
+            for (int i=0;i<MAX_DATA_NUMS;i++) {
                 int c;
-                for (int j = 0; j < 8; j++) {
+                for (int j = 0; j < MAX_DATA_NUMS; j++) {
                     c = br.read();
                     while (c == 10 || c == 13) {
                         c = br.read();
                     }
 
                     if (c != -1) {
-                        System.out.print((char) c);
+                        /*System.out.print((char) c);*/
                         data[i][j] = ((char) c);
                     }
                 }
@@ -57,8 +44,6 @@ public class LoadByWords {
             }
         }
 
-        System.out.println();
-        System.out.println();
 
         // display section
         for (int i = 0; i < MAX_DATA_NUMS; i++) {

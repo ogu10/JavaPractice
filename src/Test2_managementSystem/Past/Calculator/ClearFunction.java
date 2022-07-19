@@ -1,4 +1,4 @@
-package Test2_managementSystem.Calculator;
+package Test2_managementSystem.Past.Calculator;
 
 public class ClearFunction {
     public static void Clear(){
