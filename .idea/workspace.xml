@@ -5,47 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6843c406-03d3-42cd-bf89-4021863c22f2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/20-20-Array.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test2_managementSystem/ArrayLoad/GenerateArrayFunc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test2_managementSystem/ArrayLoad/LengthFree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test2_managementSystem/ArrayLoad/LoadByWords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test2_managementSystem/ArrayLoad/SelectLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test2_managementSystem/GameTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test2_managementSystem/GameWindow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test2_managementSystem/GridData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/Test2_managementSystem/Calculator/ButtonFunction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/Test2_managementSystem/Calculator/ButtonNumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/Test2_managementSystem/Calculator/ClearFunction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/Test2_managementSystem/Calculator/KeyReaction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/Test2_managementSystem/Calculator/MyCalculator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/Test2_managementSystem/Calculator/ResetFunction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/Test2_managementSystem/Calculator/SetFunction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/Test2_managementSystem/LoadByWords.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/Test2_managementSystem/MatrixCalc/MatrixCalc.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/Test2_managementSystem/MatrixCalc/MatrixFormat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/Test2_managementSystem/MatrixCalc/MatrixOutput.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/Test2_managementSystem/MatrixCalc/MatrixPre.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/Test2_managementSystem/MyTimer$TimeCounter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/Test2_managementSystem/MyTimer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/Test2_managementSystem/SelectLoader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test2_managementSystem/GenerateArrayFunc.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test2_managementSystem/LengthFree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test2_managementSystem/LoadByWords.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test2_managementSystem/Past/Calculator/ButtonFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test2_managementSystem/Past/Calculator/ButtonFunction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test2_managementSystem/Past/Calculator/ButtonNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test2_managementSystem/Past/Calculator/ButtonNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test2_managementSystem/Past/Calculator/ClearFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test2_managementSystem/Past/Calculator/ClearFunction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test2_managementSystem/Past/Calculator/KeyReaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test2_managementSystem/Past/Calculator/KeyReaction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test2_managementSystem/Past/Calculator/MyCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test2_managementSystem/Past/Calculator/MyCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test2_managementSystem/Past/Calculator/MyTimer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test2_managementSystem/Past/Calculator/MyTimer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test2_managementSystem/Past/Calculator/ResetFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test2_managementSystem/Past/Calculator/ResetFunction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test2_managementSystem/Past/Calculator/SetFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test2_managementSystem/Past/Calculator/SetFunction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test2_managementSystem/Past/MatrixCalc/MatrixCalc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test2_managementSystem/Past/MatrixCalc/MatrixCalc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test2_managementSystem/Past/MatrixCalc/MatrixFormat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test2_managementSystem/Past/MatrixCalc/MatrixFormat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test2_managementSystem/Past/MatrixCalc/MatrixOutput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test2_managementSystem/Past/MatrixCalc/MatrixOutput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test2_managementSystem/Past/MatrixCalc/MatrixPre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test2_managementSystem/Past/MatrixCalc/MatrixPre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test2_managementSystem/SelectLoader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trial.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/Test2_managementSystem/GameWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/Test2_managementSystem/GameWindow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test2_managementSystem/GameWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test2_managementSystem/GameWindow.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,7 +133,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1657254854853</updated>
-      <workItem from="1657254856449" duration="87169000" />
+      <workItem from="1657254856449" duration="88145000" />
     </task>
     <servers />
   </component>
@@ -214,8 +176,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Test2_managementSystem/GameWindow.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="48" />
+          <line>70</line>
+          <option name="timeStamp" value="52" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
