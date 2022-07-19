@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6843c406-03d3-42cd-bf89-4021863c22f2" name="Changes" comment="" />
+    <list default="true" id="6843c406-03d3-42cd-bf89-4021863c22f2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Test2_managementSystem/LengthFree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/Test2_managementSystem/LoadByWords.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/Test2_managementSystem/LoadByWords.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test2_managementSystem/LoadByWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test2_managementSystem/LoadByWords.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test2_managementSystem/SelectLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test2_managementSystem/SelectLoader.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -129,7 +135,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1657254854853</updated>
-      <workItem from="1657254856449" duration="77932000" />
+      <workItem from="1657254856449" duration="81576000" />
     </task>
     <servers />
   </component>
@@ -161,21 +167,5 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Test2_managementSystem/LoadByWords.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="44" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Test2_managementSystem/LoadByWords.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="45" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
