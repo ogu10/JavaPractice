@@ -14,7 +14,7 @@ public class SelectLoader extends JFrame implements ActionListener {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setBounds(10, 10, 300, 200);
         frame.setLocationByPlatform(true);
-        frame.setTitle("Loadeeeeeeeeeeeeeeeeeeer");
+        frame.setTitle("Loadeeeeeeeer");
         frame.setVisible(true);
     }
 
@@ -42,10 +42,10 @@ public class SelectLoader extends JFrame implements ActionListener {
                 File file = filechooser.getSelectedFile();
                 /*GenerateArrayFunc.geneArray(String.valueOf(file));*/
                 LoadByWords.geneByWords(String.valueOf(file));
+/*                System.out.println();
                 System.out.println();
                 System.out.println();
-                System.out.println();
-                LengthFree.geneByWords(String.valueOf(file));
+                LengthFree.geneByWords(String.valueOf(file));*/
 
             } catch (Exception ex) {
                 label.setText("Error DA-A-YO");
