@@ -1,4 +1,4 @@
-package Test2_managementSystem.MatrixCalc;
+package Test2_managementSystem.Past.MatrixCalc;
 
 public class PyramidFuncPlus {
     public static void pyramidFuncPlus(int n){
