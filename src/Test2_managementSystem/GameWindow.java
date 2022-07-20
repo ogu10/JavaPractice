@@ -48,7 +48,7 @@ public class GameWindow extends JFrame implements ActionListener {
 
                     if (c != -1) {
                         /*System.out.print((char) c);*/
-                        data[i][j] = (JLabel) add(new JLabel(String.valueOf((char)c)));
+                        data[i][j] = new GridColumn((char)c));
                     }
                 }
             }
