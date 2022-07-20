@@ -13,10 +13,11 @@ public class GameWindow extends JFrame implements ActionListener {
     String column;
     int xFixed;
     int yFixed;
+    int downcount = 0;
     JButton buttonDown = new JButton("D");
     JButton buttonRight = new JButton("R");
     final int MAX_DATA_NUMS = 20; //まあここはなんでも
-    String[][] data = new String[MAX_DATA_NUMS][MAX_DATA_NUMS];
+    JLabel[][] data = new JLabel[MAX_DATA_NUMS][MAX_DATA_NUMS];
 
     public static void main(String[] args) {
         GameWindow frame = new GameWindow();
@@ -24,7 +25,7 @@ public class GameWindow extends JFrame implements ActionListener {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setBounds(10, 10, 600, 600);
         frame.setLocationByPlatform(true);
-        frame.setTitle("Game×Game");
+        frame.setTitle("Game×Game2");
         frame.setVisible(true);
     }
 
@@ -47,7 +48,7 @@ public class GameWindow extends JFrame implements ActionListener {
 
                     if (c != -1) {
                         /*System.out.print((char) c);*/
-                        data[i][j] = String.valueOf(((char) c));
+                        data[i][j] = (JLabel) add(new JLabel(String.valueOf((char)c)));
                     }
                 }
             }
@@ -78,7 +79,7 @@ public class GameWindow extends JFrame implements ActionListener {
                 }
                 else if (data[x][y] .equals("$")){column = "$";}
                 else {column = "-";}
-                add(new JLabel(column));
+                /*add(new JLabel(column));*/
             }
         }
 
@@ -92,24 +93,14 @@ public class GameWindow extends JFrame implements ActionListener {
     }
 
     public void actionPerformed(ActionEvent e){
-        int downcount = 0;
         if (e.getSource() == buttonDown){
             downcount++;
-            data[xFixed][yFixed] = "-";
-            data[xFixed][yFixed+downcount] = "@";
+            data[xFixed][yFixed] = new JLabel("");
+            data[xFixed][yFixed+downcount] = new JLabel("@");
 
-            for(int x=0; x < 20; x++){
-                for(int y=0; y < 20; y++){
-                    if (data[x][y] .equals("@")){
-                        column = "@";
-                        xFixed = x;
-                        yFixed = y;
-                    }
-                    else if (data[x][y] .equals("$")){column = "$";}
-                    else {column = "-";}
-                    add(new JLabel(column));
-                }
-            }
         }
+        System.out.println(xFixed);
+        System.out.println(yFixed);
+        System.out.println(downcount);
     }
 }
