@@ -1,6 +1,6 @@
 package Test2_managementSystem;
 
-import Test2_managementSystem.Past.Calculator.KeyReaction;
+import Test2_managementSystem.Past.Calculator.GameButton;
 
 import javax.swing.*;
 import java.awt.*;
@@ -8,18 +8,10 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.*;
 
-public class GameWindow extends JFrame implements ActionListener {
+public class VsGame extends JFrame {
     JLabel label;
-    String column;
-    int xFixed;
-    int yFixed;
-    JButton buttonDown = new JButton("D");
-    JButton buttonRight = new JButton("R");
-    final int MAX_DATA_NUMS = 20; //まあここはなんでも
-    String[][] data = new String[MAX_DATA_NUMS][MAX_DATA_NUMS];
-
     public static void main(String[] args) {
-        GameWindow frame = new GameWindow();
+        VsGame frame = new VsGame();
 
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setBounds(10, 10, 600, 600);
@@ -28,10 +20,12 @@ public class GameWindow extends JFrame implements ActionListener {
         frame.setVisible(true);
     }
 
-    GameWindow() {
+    VsGame() {
 
         BufferedReader br = null;
         String file_name = "C:\\Users\\ogura.MYCOMPUTER\\IdeaProjects\\JavaPractice\\20-20-Array.txt";
+        final int MAX_DATA_NUMS = 20; //まあここはなんでも
+        String[][] data = new String[MAX_DATA_NUMS][MAX_DATA_NUMS];
 
         try {
             File file = new File(file_name);
@@ -68,47 +62,14 @@ public class GameWindow extends JFrame implements ActionListener {
         }
 
 
-        setLayout(new GridLayout(21, 20, 0, 0));
+        setLayout(new GridLayout(20, 20, 0, 0));
         for(int x=0; x < 20; x++){
             for(int y=0; y < 20; y++){
-                if (data[x][y] .equals("@")){
-                    column = "@";
-                    xFixed = x;
-                    yFixed = y;
-                }
+                String column;
+                if (data[x][y] .equals("@")){column = "@";}
                 else if (data[x][y] .equals("$")){column = "$";}
                 else {column = "-";}
-                add(new JLabel(column));
-            }
-        }
-
-        add(buttonDown);
-        add(buttonRight);
-        buttonDown.addActionListener(this);
-        buttonRight.addActionListener(this);
-        buttonDown.addKeyListener(new KeyReaction());
-        buttonRight.addKeyListener(new KeyReaction());
-        addKeyListener(new KeyReaction());
-    }
-
-    public void actionPerformed(ActionEvent e){
-        int downcount = 0;
-        if (e.getSource() == buttonDown){
-            downcount++;
-            data[xFixed][yFixed] = "-";
-            data[xFixed][yFixed+downcount] = "@";
-
-            for(int x=0; x < 20; x++){
-                for(int y=0; y < 20; y++){
-                    if (data[x][y] .equals("@")){
-                        column = "@";
-                        xFixed = x;
-                        yFixed = y;
-                    }
-                    else if (data[x][y] .equals("$")){column = "$";}
-                    else {column = "-";}
-                    add(new JLabel(column));
-                }
+                add(new GameButton(column));
             }
         }
     }

@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6843c406-03d3-42cd-bf89-4021863c22f2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Test2_managementSystem/Past/Calculator/GameButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test2_managementSystem/VsGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20-20-Array.txt" beforeDir="false" afterPath="$PROJECT_DIR$/20-20-Array.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/Test2_managementSystem/GameWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/Test2_managementSystem/GameWindow.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Test2_managementSystem/GameWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test2_managementSystem/GameWindow.java" afterDir="false" />
     </list>
@@ -89,8 +92,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test2_managementSystem.GenerateArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test2_managementSystem.GenerateArray" />
+    <configuration name="Test2_managementSystem.SelectLoader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test2_managementSystem.SelectLoader" />
       <module name="JavaPractice" />
       <extension name="coverage">
         <pattern>
@@ -102,8 +105,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test2_managementSystem.SelectLoader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test2_managementSystem.SelectLoader" />
+    <configuration name="VsGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test2_managementSystem.VsGame" />
       <module name="JavaPractice" />
       <extension name="coverage">
         <pattern>
@@ -118,10 +121,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Test2_managementSystem.GameWindow" />
+        <item itemvalue="Application.VsGame" />
         <item itemvalue="Application.Test2_managementSystem.ArrayLoad.SelectLoader" />
         <item itemvalue="Application.Test2_managementSystem.GameTest" />
         <item itemvalue="Application.Test2_managementSystem.SelectLoader" />
-        <item itemvalue="Application.Test2_managementSystem.GenerateArray" />
       </list>
     </recent_temporary>
   </component>
@@ -133,7 +136,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1657254854853</updated>
-      <workItem from="1657254856449" duration="88145000" />
+      <workItem from="1657254856449" duration="92965000" />
     </task>
     <servers />
   </component>
@@ -170,14 +173,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Test2_managementSystem/ArrayLoad/SelectLoader.java</url>
-          <line>42</line>
-          <option name="timeStamp" value="47" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Test2_managementSystem/GameWindow.java</url>
-          <line>70</line>
-          <option name="timeStamp" value="52" />
+          <line>72</line>
+          <option name="timeStamp" value="54" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
