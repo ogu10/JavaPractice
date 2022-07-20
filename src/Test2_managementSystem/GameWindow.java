@@ -10,6 +10,10 @@ import java.io.*;
 
 public class GameWindow extends JFrame implements ActionListener {
     JLabel label;
+    ImageIcon player = new ImageIcon("Test2_managementSystem/p.png");
+    ImageIcon wall = new ImageIcon();
+    ImageIcon diamond = new ImageIcon();
+
     String column;
     int xFixed;
     int yFixed;
@@ -48,7 +52,11 @@ public class GameWindow extends JFrame implements ActionListener {
 
                     if (c != -1) {
                         /*System.out.print((char) c);*/
-                        data[i][j] = new GridColumn((char)c));
+                        if ((char) c == '@') {
+                            data[i][j].setIcon(player);
+                        }else {
+                            data[i][j].setIcon(player);
+                        }
                     }
                 }
             }
@@ -70,7 +78,7 @@ public class GameWindow extends JFrame implements ActionListener {
 
 
         setLayout(new GridLayout(21, 20, 0, 0));
-        for(int x=0; x < 20; x++){
+/*        for(int x=0; x < 20; x++){
             for(int y=0; y < 20; y++){
                 if (data[x][y] .equals("@")){
                     column = "@";
@@ -79,9 +87,9 @@ public class GameWindow extends JFrame implements ActionListener {
                 }
                 else if (data[x][y] .equals("$")){column = "$";}
                 else {column = "-";}
-                /*add(new JLabel(column));*/
+                *//*add(new JLabel(column));*//*
             }
-        }
+        }*/
 
         add(buttonDown);
         add(buttonRight);
@@ -95,8 +103,8 @@ public class GameWindow extends JFrame implements ActionListener {
     public void actionPerformed(ActionEvent e){
         if (e.getSource() == buttonDown){
             downcount++;
-            data[xFixed][yFixed] = new JLabel("");
-            data[xFixed][yFixed+downcount] = new JLabel("@");
+            data[xFixed][yFixed].setText("");
+            data[xFixed][yFixed+downcount].setText("@");
 
         }
         System.out.println(xFixed);

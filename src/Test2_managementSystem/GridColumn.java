@@ -1,3 +1,4 @@
+/*
 package Test2_managementSystem;
 
 import javax.swing.*;
@@ -9,3 +10,4 @@ public class GridColumn {
         label.setBackground(Color.GREEN);
     }
 }
+*/
