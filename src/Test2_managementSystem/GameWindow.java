@@ -9,8 +9,7 @@ import java.awt.event.ActionListener;
 import java.io.*;
 
 public class GameWindow extends JFrame implements ActionListener {
-    JLabel label;
-    ImageIcon player = new ImageIcon("Test2_managementSystem/p.png");
+    ImageIcon player = new ImageIcon("p.png");
     ImageIcon wall = new ImageIcon();
     ImageIcon diamond = new ImageIcon();
 
@@ -78,18 +77,6 @@ public class GameWindow extends JFrame implements ActionListener {
 
 
         setLayout(new GridLayout(21, 20, 0, 0));
-/*        for(int x=0; x < 20; x++){
-            for(int y=0; y < 20; y++){
-                if (data[x][y] .equals("@")){
-                    column = "@";
-                    xFixed = x;
-                    yFixed = y;
-                }
-                else if (data[x][y] .equals("$")){column = "$";}
-                else {column = "-";}
-                *//*add(new JLabel(column));*//*
-            }
-        }*/
 
         add(buttonDown);
         add(buttonRight);

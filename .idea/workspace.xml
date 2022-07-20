@@ -7,8 +7,9 @@
     <list default="true" id="6843c406-03d3-42cd-bf89-4021863c22f2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/Test2_managementSystem/GameWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/Test2_managementSystem/GameWindow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/Test2_managementSystem/p.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Test2_managementSystem/GameWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test2_managementSystem/GameWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test2_managementSystem/GridColumn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test2_managementSystem/GridColumn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test2_managementSystem/p.png" beforeDir="false" afterPath="$PROJECT_DIR$/p.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,8 +53,9 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\ogura.MYCOMPUTER\IdeaProjects\JavaPractice\src\Test2_managementSystem" />
+      <recent name="C:\Users\ogura.MYCOMPUTER\IdeaProjects\JavaPractice" />
       <recent name="C:\Users\ogura.MYCOMPUTER\IdeaProjects\JavaPractice\src" />
+      <recent name="C:\Users\ogura.MYCOMPUTER\IdeaProjects\JavaPractice\src\Test2_managementSystem" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Test2_managementSystem.GameWindow">
@@ -140,7 +142,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1657254854853</updated>
-      <workItem from="1657254856449" duration="100717000" />
+      <workItem from="1657254856449" duration="101863000" />
     </task>
     <servers />
   </component>
